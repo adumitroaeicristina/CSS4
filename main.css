@@ -1,0 +1,63 @@
+body{
+    color: red;
+}
+
+.text-ellipsis { 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.background-container{ background:#FFF0C0 url("background.gif") repeat fixed top;
+    width: 800px;
+    height: 600px;
+}
+    
+.gradient-div{ background-image: linear-gradient(to bottom,yellow,orange);
+width: 200px;
+height: 300px;
+}
+
+.content-box {
+    max-resolution: 5px;
+    border: 1px solid red;
+    padding: 10px;
+    width: 100px;
+}
+
+.border-box {
+    max-resolution: 5px;
+    border: 1px solid green;
+    padding: 10px;
+    width: 100px; 
+    box-sizing: border-box;
+}
+
+.padding-shorthand {
+    /* padding: 5px; */
+    /* padding: 3px 5px; */
+    padding: 3px 5px 7px 9px;
+    border: 1px solid black;
+}
+
+img {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.relative-position{
+    position: relative;
+    top: 20px;
+    border: 1px solid black;
+}
+
+.absolute-position{
+    position: absolute;
+    top: 20px;
+    border: 1px solid blue;
+}
